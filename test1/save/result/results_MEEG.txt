@@ -1,0 +1,26 @@
+
+2025-08-08 14:46:02.695523
+Train:Parameter setting for AT-DGNN on MEEG
+1)number_class:2
+2)random_seed:3407
+3)learning_rate:0.001
+4)training_rate:0.8
+5)pool:16
+6)num_epochs:200
+7)batch_size:64
+8)dropout:0.5
+9)hidden_node:32
+10)input_shape:(1, 32, 800)
+11)class:A
+12)T:64
+13)graph-type:fro
+14)patient:40
+15)patient-cmb:10
+16)max-epoch-cmb:40
+17)fold:10
+18)model:AT-DGNN
+19)data-path:..
+20)balance:False
+21)bandpass:(1, 50)
+22)dataset:MEEG
+23)overlap:0

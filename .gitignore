@@ -1,0 +1,39 @@
+﻿# === Python 基本忽略 ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.ipynb_checkpoints/
+
+# === 常见虚拟环境 ===
+venv/
+.venv/
+env/
+.env/
+**/johnson_music_aard/
+**/johnson_music_aard_linux/
+
+# === IDE / OS ===
+.vscode/
+.idea/
+.DS_Store
+
+# === 数据与输出（按需调整）===
+archive/
+data/
+outputs/
+logs/
+
+# === 可能很大的二进制/模型文件（按需扩展）===
+*.edf
+*.h5
+*.hdf5
+*.pth
+*.pt
+*.zip
+*.tar
+*.tar.gz
+
+# === 根目录特例：忽略所有 .dat（避免 sample_1.dat）===
+/*.dat
